@@ -11,19 +11,20 @@ A simple tool for labeling object bounding boxes in images, implemented with Pyt
 
 Data Organization
 -----------------
-LabelTool  
-|  
-|--main.py   *# source code for the tool*  
-|  
-|--Images/   *# direcotry containing the images to be labeled*  
-|  
-|--Labels/   *# direcotry for the labeling results*  
-|  
-|--Examples/  *# direcotry for the example bboxes*  
+LabelTool
+|
+|--main.py   *# source code for the tool*
+|
+|--Images/   *# direcotry containing the images to be labeled*
+|
+|--Labels/   *# direcotry for the labeling results*
+|
+|--Examples/  *# direcotry for the example bboxes*
 
 Environment
 ----------
 - python 2.7
+- python 3.6
 - python PIL (Pillow)
 
 Run
@@ -39,4 +40,4 @@ Usage
   - To delete a existing bounding box, select it from the listbox, and click `Delete`.
   - To delete all existing bounding boxes in the image, simply click `ClearAll`.
 3. After finishing one image, click `Next` to advance. Likewise, click `Prev` to reverse. Or, input an image id and click `Go` to navigate to the speficied image.
-  - Be sure to click `Next` after finishing a image, or the result won't be saved. 
+  - Be sure to click `Next` after finishing a image, or the result won't be saved.
